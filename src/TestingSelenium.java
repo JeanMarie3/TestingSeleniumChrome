@@ -20,8 +20,6 @@ public class TestingSelenium {
         //Static waiting
         TimeUnit.SECONDS.sleep(10);
 
-        //driver.wait(10);
-        //Thread.sleep(ThreadLocalRandom.current().nextInt(1000, 5000));
         //closing the browser
         driver.close();
 
