@@ -17,6 +17,7 @@ public class TestingSelenium {
         button.click();
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //Static waiting
         TimeUnit.SECONDS.sleep(10);
 
         //driver.wait(10);
