@@ -15,7 +15,7 @@ public class TestingSelenium {
 
         WebElement button=driver.findElement(By.xpath("//input[@name='btnLogin']"));
         button.click();
-
+        //Example Of Implicit Wait Command
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //Static waiting
         TimeUnit.SECONDS.sleep(10);
